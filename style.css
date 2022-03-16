@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #7F803C;
+}
+
+header {
+    color: #D6E0E7;
+}
+
+header h1,
+header h2 {
+    text-align: center;
+}
+
+.game-buttons {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.game-buttons button {
+    width: 150px;
+    height: 40px;
+    font-size: 1.5rem;
+    margin: auto 50px;
+    border-radius: 5px;
+    background-color: #B16C3A;
+    border: none;
+
+}
+
+.game-buttons button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px;
+}
+
+.game-buttons button:active {
+    box-shadow: initial;
+}
+
+.time-score-block {
+    color: #D6E0E7;
+}
+
+.timer-score-container {
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.time-score-card h3{
+    text-align: center;
+    margin: 0 20px;
+}
+
+.mole-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mole-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mole-card {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.dirt {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+}
+
+.mole-picture-container {
+    position: relative;
+    height: 80%;
+    overflow: hidden;
+}
+
+.mole {
+    width: 100px;
+    position: absolute;
+    bottom: -60px;
+    right: 50%;
+    transform: translateX(50%);
+    cursor: pointer;
+    transition: bottom 0.2s;
+}
+
+.mole:active {
+    box-shadow: 0 0 30px red;
+    border-radius: 300px;
+}

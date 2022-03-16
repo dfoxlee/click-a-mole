@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Whack-A-Mole style typing game">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <header>
+            <h2>Welcome to</h2>
+            <h1>Click-a-Mole</h1>
+        </header>
+
+        <section class="game-buttons">
+            <button id="startButton">START</button>
+            <button id="resetButton">RESET</button>
+        </section>
+
+        <section class="time-score-block">
+            <div class="timer-score-container">
+                <div class="time-score-card">
+                    <h3>TIME</h3>
+                    <h3 id="timeCounter">0:00</h3>
+                </div>
+                <div class="time-score-card">
+                    <h3>SCORE</h3>
+                    <h3 id="scoreCounter">0</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="mole-container">
+            <div class="mole-row">
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-1" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-2" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-3" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-4" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+            </div>
+            <div class="mole-row">
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-5" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-6" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-7" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+                <div class="mole-card">
+                    <img class="dirt" src="./resources/dirt.png" alt="cartoon picture of dirt">
+                    <div class="mole-picture-container">
+                        <img id="mole-8" class="mole"  src="./resources/mole.png" alt="cartoon picture of a mole">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <script src="./scriptWhackAMole.js" async defer></script>
+    </body>
+</html>
